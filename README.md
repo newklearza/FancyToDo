@@ -8,6 +8,12 @@ Welcome to FancyToDo, a whimsical to-do web application that's bound to tickle y
 
 FancyToDo is a to-do web application that offers both a delightful frontend interface and a robust backend API. This project showcases how to create, manage, and toggle tasks. Get ready to have fun while tackling your tasks!
 
+## Tech Stack
+• Python
+• PostgreSQL
+• Docker
+• Html/JS
+
 ## Prerequisites
 
 To get started with FancyToDo, you'll need:
