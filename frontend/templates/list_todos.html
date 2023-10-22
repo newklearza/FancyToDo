@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retail Capital To-Do List</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Retail Roast: Your Daily 'Stuff to Do and Pray Nothing Blows Up' Checklist</h2>
+        <ul class="list-group">
+            {% for todo in todos %}
+                <li class="list-group-item">{{ todo.task }}</li>
+            {% endfor %}
+        </ul>
+        <a href="/create" class="btn btn-primary mt-3">Add New To-Do</a>
+    </div>
+</body>
+</html>

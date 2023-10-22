@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retail Capital To-Do List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Retail Roast: Your Daily 'Stuff to Do and Pray Nothing Blows Up' Checklist</h2>
+        <form method="POST" action="/todo">
+            <div class="form-group">
+                <label for="task">Task:</label>
+                <input type="text" class="form-control" id="task" name="task" placeholder="Enter a new task" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Create To-Do</button>
+        </form>
+    </div>
+</body>
+</html>

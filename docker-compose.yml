@@ -1,0 +1,29 @@
+version: '3'
+services:
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "80:80"
+
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db
+    environment:
+      DB_HOST: db
+    volumes:
+      - ./backend:/app  # Mount the directory containing your templates
+
+  db:
+    image: "postgres:latest"
+    container_name: db
+    environment:
+      POSTGRES_DB: "todo_app"
+      POSTGRES_USER: "todo_user"
+      POSTGRES_PASSWORD: "todo_pass"
+    volumes:
+      - ./docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
