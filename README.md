@@ -1,4 +1,6 @@
 # 🚀 FancyToDo: A Quirky To-Do Web App
+![image](https://github.com/newklearza/FancyToDo/assets/16708472/7cc117a2-a974-4837-8129-3963ab97a3c4)
+
 
 Welcome to FancyToDo, a whimsical to-do web application that's bound to tickle your productivity fancy. Whether you're a task master or just want a quirky way to organize your day, FancyToDo has got you covered!
 
