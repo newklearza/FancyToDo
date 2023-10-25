@@ -12,6 +12,7 @@ To get started with FancyToDo, you'll need:
 
 - Docker: [Install Docker](https://www.docker.com/get-started)
 - Requirements & dependencies are all included
+- pip install -r requirements.txt
 
 ## Getting Started
 
